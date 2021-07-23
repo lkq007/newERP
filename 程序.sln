@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "程序", ".", "{A6B2BAC4-DC9A-4DF9-8747-D27CA3B685FD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/程序"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\2\net147个人防护产品ERP系统SQL\net147个人防护产品ERP系统SQL\程序\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\程序\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/程序"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Downloads\2\net147个人防护产品ERP系统SQL\net147个人防护产品ERP系统SQL\程序\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\程序\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "41881"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6B2BAC4-DC9A-4DF9-8747-D27CA3B685FD}.Debug|.NET.ActiveCfg = Debug|.NET
+		{A6B2BAC4-DC9A-4DF9-8747-D27CA3B685FD}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
