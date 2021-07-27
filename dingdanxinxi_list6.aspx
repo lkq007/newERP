@@ -1,21 +1,25 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="dingdanxinxi_list6.aspx.cs" Inherits="dingdanxinxi_list6" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
+<script src="js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
 <head id="Head1" runat="server">
     <title>无标题页</title><script language="javascript" src="js/Calendar.js"></script><LINK href="images/StyleSheet.css" type=text/css rel=stylesheet>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-        <table width="98%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse">
+        <table width="100%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#1E90FF" style="border-collapse:collapse">
             <tbody>
                 <tr class="tr2">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">所有订单信息列表</td>
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">所有订单信息列表</td>
                 </tr>
                 <tr class="tr1">
                     <td style="padding-left: 5px; height: 25px">
-                        &nbsp; 订单编号：<asp:TextBox ID=dingdanbianhao runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 订单名称：<asp:TextBox ID=dingdanmingcheng runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 提交人：<asp:TextBox ID=tijiaoren runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 交单时限：<asp:TextBox ID=jiaodanshixian1 runat="server" onclick="getDate(form1.jiaodanshixian1,'2')" need="1" Width="80px" style='border:solid 1px #000000; color:#666666'></asp:TextBox>-<asp:TextBox ID=jiaodanshixian2 runat="server" onclick="getDate(form1.jiaodanshixian2,'2')" need="1" Width="80px" style='border:solid 1px #000000; color:#666666'></asp:TextBox>
+                        &nbsp; 订单编号：<asp:TextBox ID=dingdanbianhao runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 订单名称：<asp:TextBox ID=dingdanmingcheng runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 提交人：<asp:TextBox ID=tijiaoren runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 
+                        交单时限：<asp:TextBox ID=jiaodanshixian1 runat="server" onclick="WdatePicker()" need="1" Width="80px" style='border:solid 1px #000000; color:#666666'></asp:TextBox>-<asp:TextBox ID=jiaodanshixian2 runat="server" onclick="WdatePicker()" need="1" Width="80px" style='border:solid 1px #000000; color:#666666'></asp:TextBox>
 						&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="查找" style='border:solid 1px #000000; color:#666666' />
+                        <div style="width:100%;margin-top:13px"></div>
+
                         <asp:DataGrid ID="DataGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
                             BorderColor="Black" CellPadding="2" font-name="verdana" Font-Names="verdana"
                             Font-Size="8pt" HeaderStyle-BackColor="#F8FAFC" PageSize="8" Width="100%" OnPageIndexChanged="DataGrid1_PageIndexChanged" AllowPaging="True">
@@ -55,7 +59,7 @@
                         </asp:DataGrid></td>
                 </tr>
                 <tr class="tr1">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">
                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                        <a href="#" onclick="javascript:window.print();">打印本页</a></td>
                 </tr>

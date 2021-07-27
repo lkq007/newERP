@@ -18,8 +18,8 @@ public partial class kehuxinxi_updt2 : System.Web.UI.Page
    
         if (!IsPostBack)
         {
-			 xingbie.Items.Add("male"); 
-			 xingbie.Items.Add("female");
+            xingbie.Items.Add("男");
+            xingbie.Items.Add("女");
             string sql;
             sql = "select * from kehuxinxi where bianhao='" + Session["username"].ToString().Trim() + "'";
             getdata(sql);
@@ -51,7 +51,7 @@ public partial class kehuxinxi_updt2 : System.Web.UI.Page
         result = new Class1().hsgexucute(sql);
         if (result == 1)
         {
-            Response.Write("<script>javascript:alert('修改成功');</script>");
+            this.Controls.Add(new LiteralControl("<script>ShowMsg('修改成功');</script>"));
         }
         else
         {

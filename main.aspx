@@ -1,7 +1,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>暑假小学期ERP系统</title>
+<title>暑期小学期ERP系统</title>
 </head>
 <frameset rows="80,*" border="0">
     <frame id="top" name="top" src="top.aspx" scrolling="no" noresize="true"></frame>

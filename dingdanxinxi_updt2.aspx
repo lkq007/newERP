@@ -21,8 +21,8 @@ function OpenScript(url,width,height)
 	<body>
 		<form id="Form1" method="post" runat="server">
 			<br />
-			   <table width="98%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse">
-				<tr bgColor="#f1f8f5">
+			   <table width="98%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#1E90FF" style="border-collapse:collapse">
+				<tr bgColor="#B0C4DE">
 					<td colSpan="2">
 						<div align="center">
                             分配订单信息</div>
@@ -45,7 +45,7 @@ function OpenScript(url,width,height)
                         <input id="Reset1" type="reset" value="重置" style='border:solid 1px #000000; color:#666666' /></td>
 				</tr>
 				
-				<tr bgColor="#f1f8f5">
+				<tr bgColor="#B0C4DE">
 					<td colSpan="2">&nbsp;</td>
 				</tr>
 			</table>

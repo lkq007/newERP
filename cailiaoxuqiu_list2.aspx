@@ -12,7 +12,7 @@
             cellspacing="1" class="table_1" width="98%">
             <tbody>
                 <tr class="tr2">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">
                         所有材料需求信息列表</td>
                 </tr>
                 <tr class="tr1">
@@ -20,6 +20,7 @@
                         &nbsp; 订单号：<asp:TextBox ID="dingdanhao" runat="server"></asp:TextBox>
                         订单名称：<asp:TextBox ID=dingdanmingcheng runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 需求材料：<asp:TextBox ID=xuqiucailiao runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox>
                         &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="查找" />
+                        <div style="width:100%;margin-top:20px"></div>
                         <asp:DataGrid ID="DataGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
                             BorderColor="Black" CellPadding="2" font-name="verdana" Font-Names="verdana"
                             Font-Size="8pt" HeaderStyle-BackColor="#F8FAFC" 
@@ -59,7 +60,7 @@
                         </asp:DataGrid></td>
                 </tr>
                 <tr class="tr1">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">
                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                        <a href="#" onclick="javascript:window.print();">打印本页</a></td>
                 </tr>

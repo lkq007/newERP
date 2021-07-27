@@ -7,17 +7,18 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <table id="search" align="center" border="1" bordercolor="#cccccc" cellpadding="0"
-            cellspacing="1" class="table_1" width="98%">
+        <table id="search" align="center" border="1" bordercolor="#1E90FF" cellpadding="0"
+            cellspacing="1" class="table_1" width="100%">
             <tbody>
                 <tr class="tr2">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">所有客户信息信息列表</td>
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">所有客户信息信息列表</td>
                 </tr>
-                <tr class="tr1">
-                    <td style="padding-left: 5px; height: 25px">
+                <tr class="tr1" >
+                    <td style="padding-left: 5px; height: 25px;">
                         &nbsp; 编号：<asp:TextBox ID=bianhao runat="server"></asp:TextBox> 姓名：<asp:TextBox ID=xingming runat="server"></asp:TextBox> 身份证：<asp:TextBox ID=shenfenzheng runat="server"></asp:TextBox> 性别：<asp:DropDownList ID='xingbie' runat='server'></asp:DropDownList> 电话：<asp:TextBox ID=dianhua runat="server"></asp:TextBox>
 						&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="查找" />
-                        <asp:DataGrid ID="DataGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
+                        <div style="width:100%;margin-top:13px"></div>
+                        <asp:DataGrid ID="DataGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False" 
                             BorderColor="Black" CellPadding="2" font-name="verdana" Font-Names="verdana"
                             Font-Size="8pt" HeaderStyle-BackColor="#F8FAFC" PageSize="8" Width="100%" OnPageIndexChanged="DataGrid1_PageIndexChanged" AllowPaging="True">
                             <HeaderStyle BackColor="#F8FAFC" Font-Bold="True" HorizontalAlign="Center" VerticalAlign="Middle" />
@@ -33,7 +34,8 @@
                                     <%#Container.ItemIndex+1 %>
                                 </ItemTemplate>
                                 </asp:TemplateColumn>
-                                <asp:BoundColumn DataField=bianhao HeaderText='编号'></asp:BoundColumn><asp:BoundColumn DataField=xingming HeaderText='姓名'></asp:BoundColumn><asp:BoundColumn DataField=shenfenzheng HeaderText='身份证'></asp:BoundColumn><asp:BoundColumn DataField=xingbie HeaderText='性别'></asp:BoundColumn><asp:BoundColumn DataField=dianhua HeaderText='电话'></asp:BoundColumn><asp:BoundColumn DataField=dizhi HeaderText='地址'></asp:BoundColumn><asp:BoundColumn DataField=youxiang HeaderText='邮箱'></asp:BoundColumn><asp:BoundColumn DataField=mima HeaderText='密码'></asp:BoundColumn><asp:BoundColumn DataField=beizhu HeaderText='备注'></asp:BoundColumn>
+                                <asp:BoundColumn DataField=bianhao HeaderText='编号'></asp:BoundColumn><asp:BoundColumn DataField=xingming HeaderText='姓名'></asp:BoundColumn><asp:BoundColumn DataField=shenfenzheng HeaderText='身份证'></asp:BoundColumn>
+                                <asp:BoundColumn DataField=xingbie HeaderText='性别'></asp:BoundColumn><asp:BoundColumn DataField=dianhua HeaderText='电话'></asp:BoundColumn><asp:BoundColumn DataField=dizhi HeaderText='地址'></asp:BoundColumn><asp:BoundColumn DataField=youxiang HeaderText='邮箱'></asp:BoundColumn><asp:BoundColumn DataField=mima HeaderText='密码'></asp:BoundColumn><asp:BoundColumn DataField=beizhu HeaderText='备注'></asp:BoundColumn>
                                 
                                 <asp:TemplateColumn HeaderText="修改">
                                		<ItemTemplate>
@@ -54,7 +56,7 @@
                         </asp:DataGrid></td>
                 </tr>
                 <tr class="tr1">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">
                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                        <a href="#" onclick="javascript:window.print();">打印本页</a></td>
                 </tr>

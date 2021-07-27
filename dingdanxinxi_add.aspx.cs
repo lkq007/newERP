@@ -43,7 +43,8 @@ public partial class dingdanxinxi_add : System.Web.UI.Page
         result = new Class1().hsgexucute(sql);
         if (result == 1)
         {
-            Response.Write("<script>javascript:alert('添加成功');</script>");
+
+            this.Controls.Add(new LiteralControl("<script>ShowMsg('添加成功');</script>"));
         }
         else
         {

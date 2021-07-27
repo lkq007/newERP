@@ -26,7 +26,9 @@ public partial class databack : System.Web.UI.Page
         //myCommand.Connection.Open();
         //myCommand.ExecuteNonQuery();
         //myConnection.Close();
-        Response.Write("<script>javascript:alert('数据成功备份');location.href='sy.aspx';</script>");
+        this.Controls.Add(new LiteralControl("<script>ShowMsg('数据成功备份');</script>"));
+
+        Response.Write("<script>javascript:alert();location.href='sy.aspx';</script>");
         Response.End();
     }
 }

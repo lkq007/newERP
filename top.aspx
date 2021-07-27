@@ -24,10 +24,10 @@ body {margin: 0px 0px 0px 0px;}
 	
 	<table width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr>
-          <td style="width:505px;  background-image:url(images/top_bg.jpg)"><table width="72%" border="0" align="left">
+          <td style="width:900px;  background-image:url(images/top_bg.jpg)"><table width="72%" border="0" align="left">
             <tr>
               <td><div style="font-family:宋体; color:#333333; filter:Glow(Color=#000000,Strength=2); WIDTH: 100%; FONT-WEIGHT: bold; FONT-SIZE: 19pt; margin-top:5pt">
-                  <div align="center" class="STYLE5">暑假小学期ERP系统</div>
+                  <div align="center" class="STYLE5">暑期小学期ERP系统</div>
               </div></td>
             </tr>
           </table></td>          

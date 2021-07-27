@@ -10,11 +10,11 @@
     <form id="form1" runat="server">
     <div>
         <table align="center" border="1" bordercolordark="#9cc7ef" bordercolorlight="#145aa0"
-            cellpadding="4" cellspacing="0" width="70%">
+            cellpadding="4" cellspacing="0" width="100%">
             <tr bgcolor="#4296e7">
                 <td colspan="4">
                     <div align="center">
-                        <font color="#ffffff">供应商信息详细</font></div>
+                        <font color="#ffffff">供应商详细信息</font></div>
                 </td>
             </tr>
             <tr>
