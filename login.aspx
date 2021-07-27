@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="login" %>
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>个人防护产品ERP系统</title>
+    <title>暑期小学期ERP系统</title>
 <style type="text/css">
 <!--
 body {
@@ -37,7 +37,7 @@ body {
             <td height="78"><table width="72%" height="51" border="0" align="center">
               <tr>
                 <td><div style="font-family:宋体; color:#FFFFFF; filter:Glow(Color=#000000,Strength=2); WIDTH: 100%; FONT-WEIGHT: bold; FONT-SIZE: 19pt; margin-top:5pt">
-                    <div align="center" class="STYLE5">暑假小学期ERP系统</div>
+                    <div align="center" class="STYLE5">暑期小学期ERP系统</div>
                 </div></td>
               </tr>
             </table></td>
@@ -54,7 +54,7 @@ body {
                                   border-top: #27b3fe 1px solid; background: url(Images/login_6.gif) #ffffff repeat-x;
                                   border-left: #27b3fe 1px solid; width: 100px; border-bottom: #27b3fe 1px solid;
                                   height: 20px"></asp:TextBox></td>
-                          <td width="32%" rowspan="4"><asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/dl.gif" OnClick="ImageButton1_Click" /></td>
+                          <td width="32%" rowspan="4"><asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/dl3.svg" OnClick="ImageButton1_Click" /></td>
                         </tr>
                         <tr>
                           <td height="30"><div align="center" class="STYLE3"><span class="STYLE2">密码</span></div></td>
@@ -68,7 +68,7 @@ body {
                           <td height="30"><div align="center" class="STYLE3"><span class="STYLE2">权限</span></div></td>
                           <td height="30">
                               &nbsp;<asp:DropDownList ID="cx" runat="server" Style="border-right: #27b3fe 1px solid;
-                                  border-top: #27b3fe 1px solid; background: url(Images/login_6.gif) #ffffff repeat-x;
+                                  border-top: #27b3fe 1px solid; background: url(Images/login_61.gif) #ffffff repeat-x;
                                   border-left: #27b3fe 1px solid; width: 100px; border-bottom: #27b3fe 1px solid;
                                   height: 20px">
                               </asp:DropDownList></td>

@@ -18,17 +18,28 @@ function OpenScript(url,width,height)
 }
 </script>
 	<body>
-		<form id="Form1" method="post" runat="server">
+		<form id="Form1" method="post" runat="server" style="margin-top:-0.8%">
 			<br />
-			   <table width="98%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse">
-				<tr bgColor="#f1f8f5">
-					<td colSpan="2">
+			   <table width="100%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#1E90FF" style="border-collapse:collapse;>
+				<tr bgColor="#B0C4DE">
+					<td colSpan="2" bgColor="#B0C4DE">
 						<div align="center">添加供应商信息</div>
 					</td>
 				</tr>
 				
-			<tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>编号:</FONT></td><td width='79%'><asp:TextBox ID='bianhao' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatorbianhao" runat="server" ControlToValidate="bianhao" ErrorMessage="必填"></asp:RequiredFieldValidator><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>名称:</FONT></td><td width='79%'><asp:TextBox ID='mingcheng' Width='395px' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatormingcheng" runat="server" ControlToValidate="mingcheng" ErrorMessage="必填"></asp:RequiredFieldValidator><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>类型:</FONT></td><td width='79%'><asp:DropDownList ID='leixing' runat='server'></asp:DropDownList></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>主营产品:</FONT></td><td width='79%'><asp:TextBox ID='zhuyingchanpin' Width='395px' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>电话:</FONT></td><td width='79%'><asp:TextBox ID='dianhua' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatordianhua" runat="server" ControlToValidate="dianhua" ErrorMessage="必填"></asp:RequiredFieldValidator><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>传真:</FONT></td><td width='79%'><asp:TextBox ID='chuanzhen' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>负责人:</FONT></td><td width='79%'><asp:TextBox ID='fuzeren' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>邮箱:</FONT></td><td width='79%'><asp:TextBox ID='youxiang' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>地址:</FONT></td><td width='79%'><asp:TextBox ID='dizhi' Width='395px' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>备注:</FONT></td><td width='79%'><asp:TextBox ID='beizhu' Width='400px' Height='100px' TextMode='MultiLine' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'><FONT face='宋体'>密码:</FONT></td><td width='79%'><asp:TextBox ID='mima' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatormima" runat="server" ControlToValidate="mima" ErrorMessage="必填"></asp:RequiredFieldValidator>
+			<tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>编号:</FONT></td><td width='79%'><asp:TextBox ID='bianhao' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatorbianhao" runat="server" ControlToValidate="bianhao" ErrorMessage="必填"></asp:RequiredFieldValidator><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>名称:</FONT></td><td width='79%'><asp:TextBox ID='mingcheng' Width='395px' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatormingcheng" runat="server" ControlToValidate="mingcheng" ErrorMessage="必填"></asp:RequiredFieldValidator><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>类型:</FONT></td><td width='79%'><asp:DropDownList ID='leixing' runat='server'></asp:DropDownList></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>主营产品:</FONT></td><td width='79%'><asp:TextBox ID='zhuyingchanpin' Width='395px' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>电话:</FONT></td><td width='79%'><asp:TextBox ID='dianhua' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatordianhua" runat="server" ControlToValidate="dianhua" ErrorMessage="必填"></asp:RequiredFieldValidator><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>传真:</FONT></td><td width='79%'><asp:TextBox ID='chuanzhen' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>负责人:</FONT></td><td width='79%'><asp:TextBox ID='fuzeren' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>邮箱:</FONT></td><td width='79%'><asp:TextBox ID='youxiang' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>地址:</FONT></td><td width='79%'><asp:TextBox ID='dizhi' Width='395px' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'>
 				
+				<FONT face='宋体'>密码:</FONT></td><td width='79%'><asp:TextBox ID='mima' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>*<asp:RequiredFieldValidator ID="RequiredFieldValidatormima" runat="server" ControlToValidate="mima" ErrorMessage="必填"></asp:RequiredFieldValidator></td></tr><tr><td noWrap width='30' style='WIDTH: 164px'>
+				<FONT face='宋体'>备注:</FONT></td><td width='79%'><asp:TextBox ID='beizhu' Width='400px' Height='100px' TextMode='MultiLine' runat='server' style='border:solid 1px #000000; color:#666666'></asp:TextBox>
 				
 				
 				<tr>
@@ -36,11 +47,12 @@ function OpenScript(url,width,height)
 						<div align="right"><FONT face="宋体"></FONT>&nbsp;</div>
 					</td>
 					<td width="59%" height="25">&nbsp;
-						<asp:button id="Button1" runat="server" Text="添加" onclick="Button1_Click" style='border:solid 1px #000000; color:#666666'></asp:button><FONT face="宋体">&nbsp;</FONT>
+						<asp:button id="Button1" runat="server" Text="添加" onclick="Button1_Click" style='border:solid 1px #000000; color:#666666'></asp:button>
+						<FONT face="宋体">&nbsp;</FONT>
                         <input id="Reset1" type="reset" value="重置" style='border:solid 1px #000000; color:#666666' /></td>
 				</tr>
 				
-				<tr bgColor="#f1f8f5">
+				<tr bgColor="#B0C4DE">
 					<td colSpan="2">&nbsp;</td>
 				</tr>
 			</table>

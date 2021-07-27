@@ -9,12 +9,12 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <table align="center" border="1" bordercolordark="#9cc7ef" bordercolorlight="#145aa0"
-            cellpadding="4" cellspacing="0" width="95%">
+        <table align="center" border="1" bordercolordark="#4296e7" bordercolorlight="#4296e7"
+            cellpadding="4" cellspacing="0" width="100%">
             <tr bgcolor="#4296e7">
                 <td colspan="4">
                     <div align="center">
-                        <font color="#ffffff">客户信息详细</font></div>
+                        <font color="#ffffff">客户详细信息</font></div>
                 </td>
             </tr>
             <tr>
@@ -23,7 +23,7 @@
             
             <tr>
                 <td height="25" nowrap="nowrap" align="center" colspan="4">&nbsp;<font
-                        face="宋体">&nbsp;<a href="javascript:history.back();">返回</a></font></td>
+                        face="宋体">&nbsp;<input type=button  value=返回 onClick="javascript:history.back()" /></font></td>
             </tr>
             <tr bgcolor="#4296e7">
                 <td colspan="4">&nbsp;

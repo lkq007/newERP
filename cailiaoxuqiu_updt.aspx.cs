@@ -51,11 +51,11 @@ public partial class cailiaoxuqiu_updt : System.Web.UI.Page
         result = new Class1().hsgexucute(sql);
         if (result == 1)
         {
-            Response.Write("<script>javascript:alert('修改成功');</script>");
+            this.Controls.Add(new LiteralControl("<script>ShowMsg('修改成功');</script>"));
         }
         else
         {
-            Response.Write("<script>javascript:alert('系统错误');</script>");
+            this.Controls.Add(new LiteralControl("<script>ShowMsg('系统错误');</script>"));
         }
     }
 }

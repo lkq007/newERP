@@ -11,8 +11,8 @@ function Folder(folderDescription, hreference) {
    // dynamic data
    this.isRoot = true;
    this.isOpen = true;
-   this.iconSrc = "images/ftv2folderopen.gif";
-   this.iconRoot = "images/ftv2folderopen.gif"
+   this.iconSrc = "images/open.gif";
+   this.iconRoot = "images/open.gif"
    this.children = new Array;
    this.nChildren = 0;
 
@@ -86,7 +86,7 @@ function propagateChangesInState(folder) {
        if(this.isRoot)
            folder.iconImg.src = "images/ftv2_mail.gif";
        else
-           folder.iconImg.src = "images/ftv2folderclosed.gif";
+           folder.iconImg.src = "images/close.svg";
 
        for(i = 0; i < folder.nChildren; i++)
            folder.children[i].hide();

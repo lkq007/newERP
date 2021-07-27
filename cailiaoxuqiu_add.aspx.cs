@@ -64,11 +64,11 @@ public partial class cailiaoxuqiu_add : System.Web.UI.Page
         result = new Class1().hsgexucute(sql);
         if (result == 1)
         {
-            Response.Write("<script>javascript:alert('添加成功');</script>");
+            this.Controls.Add(new LiteralControl("<script>ShowMsg('添加成功');</script>"));
         }
         else
         {
-            Response.Write("<script>javascript:alert('系统错误，请检查数据库设置问题');</script>");
+            this.Controls.Add(new LiteralControl("<script>ShowMsg('系统错误，请检查数据库设置问题');</script>"));
         }
     }
     private void addxiala(string ntable, string nzd, string nxlk)

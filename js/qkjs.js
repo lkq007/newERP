@@ -240,7 +240,14 @@ function refreshCalendarClock() //
 function setCalendar(){
 //document.write("<table border='1' cellspacing='3' width='180' bordercolor='#009B00' bgcolor='#FFFFFF' height='110' cellpadding='2'");
 //document.write("<tr><td align='center'><b>"+YYMMDD()+"<br><font face='Arial' size='6' color=#FF8040>"+SD+"</font><br>");
-document.write(YYMMDD()+SD+"日&nbsp;"+weekday()+"&nbsp;");
+//document.write(YYYMMDD()+SD+"日&nbsp;"+weekday()+"&nbsp;");
+    var nowDate = new Date();
+    var year = nowDate.getFullYear();
+    var month = nowDate.getMonth() + 1 < 10 ? "0" + (nowDate.getMonth() + 1)
+        : nowDate.getMonth() + 1;
+    var day = nowDate.getDate() < 10 ? "0" + nowDate.getDate() : nowDate
+        .getDate();
+    document.write(year + '年&nbsp;' + month +'月&nbsp;' + day + "日&nbsp;" + weekday() + "&nbsp;");
 //document.write(weekday()+"<br><font id=ClockTime color=red></font>"+"<br></b>");
 //document.write(solarDay1())
 //document.write(solarDay2())

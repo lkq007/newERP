@@ -9,22 +9,22 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <table border="0" style="width: 100%">
+        <table border="0" style="width: 100%;margin-top:-1.3%">
             <tr>
                 <td align="left" style="height: 17px">
-                    &nbsp;<table align="center" border="1" bordercolordark="#9cc7ef" bordercolorlight="#145aa0"
-                        cellpadding="4" cellspacing="0" style="width: 90%">
-                        <tr bgcolor="#4296e7">
+                    &nbsp;<table align="center" border="1" bordercolordark="#1E90FF" bordercolorlight="#1E90FF"
+                        cellpadding="4" cellspacing="0" style="width: 100%">
+                        <tr bgcolor="#B0C4DE">
                             <td colspan="1">
                                 <div align="center">
-                                    <font color="#ffffff">系统管理员用户</font></div>
+                                    <font color="black">系统管理员用户</font></div>
                             </td>
                         </tr>
                         <tr>
                             <td width="79%">
                                 &nbsp;<asp:DataGrid ID="DataGrid1" runat="server" AllowPaging="True" AutoGenerateColumns="False"
-                                    BorderColor="DodgerBlue" Height="139px" PageSize="6" Width="100%">
-                                    <SelectedItemStyle BackColor="Blue" />
+                                    BorderColor="#1E90FF" Height="139px" PageSize="6" Width="100%">
+                                    <SelectedItemStyle BackColor="black" />
                                     <PagerStyle NextPageText="上一页" PrevPageText="下一页" />
                                     <ItemStyle BackColor="White" />
                                     <Columns>
@@ -47,12 +47,12 @@
                                 </asp:DataGrid></td>
                         </tr>
                         <tr>
-                            <td colspan="1">
+                            <td colspan="1" >
                                 <div align="center">
                                 </div>
                             </td>
                         </tr>
-                        <tr bgcolor="#4296e7">
+                        <tr bgcolor="#B0C4DE">
                             <td colspan="1">
                                 &nbsp;</td>
                         </tr>

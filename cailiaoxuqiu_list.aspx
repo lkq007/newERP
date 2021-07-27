@@ -7,16 +7,18 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <table width="98%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse">
+        <table width="100%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#1E90FF" style="border-collapse:collapse">
             <tbody>
                 <tr class="tr2">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">所有材料需求列表</td>
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">所有材料需求列表</td>
                 </tr>
                 <tr class="tr1">
                     <td style="padding-left: 5px; height: 25px">
                         &nbsp; 订单号：<asp:TextBox ID="dingdanhao" runat="server"></asp:TextBox>
                         订单名称：<asp:TextBox ID=dingdanmingcheng runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 需求材料：<asp:TextBox ID=xuqiucailiao runat="server" style='border:solid 1px #000000; color:#666666'></asp:TextBox> 供应商：<asp:DropDownList ID='gongyingshang' runat='server'></asp:DropDownList>
 						&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="查找" style='border:solid 1px #000000; color:#666666' />
+                        <div style="width:100%;margin-top:13px"></div>
+
                         <asp:DataGrid ID="DataGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="False"
                             BorderColor="Black" CellPadding="2" font-name="verdana" Font-Names="verdana"
                             Font-Size="8pt" HeaderStyle-BackColor="#F8FAFC" PageSize="8" Width="100%" OnPageIndexChanged="DataGrid1_PageIndexChanged" AllowPaging="True">
@@ -54,7 +56,7 @@
                         </asp:DataGrid></td>
                 </tr>
                 <tr class="tr1">
-                    <td bgcolor="#f1f8f5" style="padding-left: 5px; height: 25px">
+                    <td bgcolor="#B0C4DE" style="padding-left: 5px; height: 25px">
                         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                        <a href="#" onclick="javascript:window.print();">打印本页</a></td>
                 </tr>

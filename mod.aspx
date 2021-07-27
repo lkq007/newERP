@@ -11,12 +11,12 @@
 	</HEAD>
 	<body >
 		<form id="Form1" method="post" runat="server">
-			<h1 align="center">修改密码</h1>
-			<table width="50%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse"> 
+			<h1 align="center" >修改密码</h1>
+			<table width="50%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#1E90FF" style="border-collapse:collapse;line-height:50px"> 
 				<tr>
-					<td width="20%" style="HEIGHT: 26px">&nbsp;原密码：</td>
-					<td width="80%" style="HEIGHT: 26px">&nbsp;
-						<asp:TextBox id="TextBox1" runat="server" Width="144px" TextMode="Password"></asp:TextBox>*</td>
+					<td width="25%" style="HEIGHT: 26px">&nbsp;原密码：</td>
+					<td width="90%" style="HEIGHT: 26px">&nbsp;
+						<asp:TextBox id="TextBox1" runat="server"  TextMode="Password"></asp:TextBox>*</td>
 				</tr>
 				<tr>
 					<td>&nbsp;新密码：</td>
@@ -31,7 +31,7 @@
 				<tr>
 					<td>&nbsp;</td>
 					<td>&nbsp;
-						<asp:Button id="Button1" runat="server" Width="48px" Text="修改" onclick="Button1_Click"></asp:Button>&nbsp;
+						<asp:Button id="Button1" runat="server" Width="48px" Text="修改" onclick="Button1_Click"></asp:Button>&nbsp;&nbsp;&nbsp;
                         <input id="Reset1" style="width: 50px" type="reset" value="重填" /></td>
 				</tr>
 			</table>

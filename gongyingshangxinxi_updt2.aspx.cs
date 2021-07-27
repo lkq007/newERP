@@ -18,8 +18,8 @@ public partial class gongyingshangxinxi_updt2 : System.Web.UI.Page
    
         if (!IsPostBack)
         {
-            leixing.Items.Add("上游供应商");
-            leixing.Items.Add("下游供应商");
+            //leixing.Items.Add("上游供应商");
+            //leixing.Items.Add("下游供应商");
 			// xingbie.Items.Add("male"); 
 			// xingbie.Items.Add("female");
             string sql;
@@ -38,7 +38,7 @@ public partial class gongyingshangxinxi_updt2 : System.Web.UI.Page
         {
             if (result.Tables[0].Rows.Count > 0)
             {
-                bianhao.Text = result.Tables[0].Rows[0]["bianhao"].ToString().Trim();mingcheng.Text = result.Tables[0].Rows[0]["mingcheng"].ToString().Trim();leixing.Text = result.Tables[0].Rows[0]["leixing"].ToString().Trim();zhuyingchanpin.Text = result.Tables[0].Rows[0]["zhuyingchanpin"].ToString().Trim();dianhua.Text = result.Tables[0].Rows[0]["dianhua"].ToString().Trim();chuanzhen.Text = result.Tables[0].Rows[0]["chuanzhen"].ToString().Trim();fuzeren.Text = result.Tables[0].Rows[0]["fuzeren"].ToString().Trim();youxiang.Text = result.Tables[0].Rows[0]["youxiang"].ToString().Trim();dizhi.Text = result.Tables[0].Rows[0]["dizhi"].ToString().Trim();beizhu.Text = result.Tables[0].Rows[0]["beizhu"].ToString().Trim();mima.Text = result.Tables[0].Rows[0]["mima"].ToString().Trim();
+                //bianhao.Text = result.Tables[0].Rows[0]["bianhao"].ToString().Trim();mingcheng.Text = result.Tables[0].Rows[0]["mingcheng"].ToString().Trim();leixing.Text = result.Tables[0].Rows[0]["leixing"].ToString().Trim();zhuyingchanpin.Text = result.Tables[0].Rows[0]["zhuyingchanpin"].ToString().Trim();dianhua.Text = result.Tables[0].Rows[0]["dianhua"].ToString().Trim();chuanzhen.Text = result.Tables[0].Rows[0]["chuanzhen"].ToString().Trim();fuzeren.Text = result.Tables[0].Rows[0]["fuzeren"].ToString().Trim();youxiang.Text = result.Tables[0].Rows[0]["youxiang"].ToString().Trim();dizhi.Text = result.Tables[0].Rows[0]["dizhi"].ToString().Trim();beizhu.Text = result.Tables[0].Rows[0]["beizhu"].ToString().Trim();mima.Text = result.Tables[0].Rows[0]["mima"].ToString().Trim();
                 
             }
         }
@@ -53,7 +53,7 @@ public partial class gongyingshangxinxi_updt2 : System.Web.UI.Page
         result = new Class1().hsgexucute(sql);
         if (result == 1)
         {
-            Response.Write("<script>javascript:alert('修改成功');</script>");
+            this.Controls.Add(new LiteralControl("<script>ShowMsg('修改成功');</script>"));
         }
         else
         {

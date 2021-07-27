@@ -16,8 +16,8 @@ public partial class kehuxinxi_list : System.Web.UI.Page
         if (!IsPostBack)
         {
 	     xingbie.Items.Add("ËùÓÐ"); 
-	     xingbie.Items.Add("male"); 
-	     xingbie.Items.Add("female");
+	     xingbie.Items.Add("ÄÐ"); 
+	     xingbie.Items.Add("Å®");
             string sql;
             sql = "select * from kehuxinxi order by id desc";
             getdata(sql);
